@@ -74,9 +74,53 @@
 
 .portfolio-plan{
     display: flex;
+    text-align: center;
+    justify-content:center;
+    gap: 200px;
+    margin-top: 50px;
 }
 
-.portfolio-plan-item{
-    text-align: center;
-    justify-content: space-between;
+.plan-img{
+    margin-bottom: 10px;
+}
+
+.plan-title{
+    margin-bottom: 10px;
+}
+
+.plan-section{
+    margin-bottom: 100px;
+}
+
+.positive-section{
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 50px
+   
+}
+
+.positive{
+    margin-left: 80px;
+    padding-top: 100px;
+    width: 490px;
+    height: 182px;
+}
+
+.positive-info{
+    font-size: 40px;
+    color: white;
+
+}
+
+.positive-button{
+    width: 160px;
+    height: 64px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
 }
