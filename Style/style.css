@@ -99,15 +99,16 @@
     width: 1140px;
     height: 300px;
     margin-left: 100px;
-    margin-bottom: 50px
-   
+    margin-bottom: 50px;
+    
 }
 
 .positive{
     margin-left: 80px;
-    padding-top: 100px;
+    padding-top: 50px;
     width: 490px;
     height: 182px;
+    
 }
 
 .positive-info{
@@ -123,4 +124,91 @@
     border: none;
     border-radius: 5px;
     margin-top: 25px;
+}
+
+.positive-overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+  }
+
+.footer{
+    background-color: black;
+    display: flex;
+    padding-top: 150px;
+    gap: 200px;
+  }
+
+.footer-title{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+.footer-description{
+    color: white;
+    font-size: 16px;
+}
+
+.footer-subscribe{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-email{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    height: 65px;
+    width: 325px;
+    padding-left: 15px;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.footer-right{
+    width: 325px;
+    height: 204px;
+}
+.footer-left{
+    width: 485px;
+    height: 317px;
+    padding-left: 200px;
+}
+
+.footer-description{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.footer-phone{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-email-left{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.facebook{
+    margin-right: 10px;
+}
+
+.twitter{
+    margin-right: 10px;
+}
+
+.footer-submit{
+    width: 170px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: #F15B22;
+    font-size: 16px;
 }
