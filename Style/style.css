@@ -1,4 +1,29 @@
-.header{
+
+
+.banner-title{
+    font-size: 65px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.header-img{
     background-image: url('../images/banner/banner1.png');
-    background-color: black;
+}
+.banner{
+    text-align: right;
+    margin-right: 200px;
+    margin-left: 600px;
+    } 
+
+.banner-descriprion{
+    font-size: 16px;
+}
+
+.banner-button{
+    background-color: #F15B22;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
